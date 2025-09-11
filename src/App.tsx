@@ -356,7 +356,7 @@ const App = () => {
           </div>
           <h3 className={`text-2xl md:text-3xl font-semibold mt-8 mb-4 leading-tight max-w-4xl mx-auto text-left ${darkMode ? 'text-white opacity-100' : 'text-black opacity-75'} font-poppins`}>My Personal Passions</h3>
           <div className="text-lg md:text-xl max-w-4xl mx-auto text-left font-poppins">
-            <p>I'm a passionate foodie who loves to cook, but I balance that with an active lifestyle that includes hitting the gym and practicing Judo. When I need to disconnect, you’ll find me on a camping trip. This mix of passions has even inspired me to start my own fitwear brand, which is my most exciting project right now.</p>
+            <p>I'm a passionate foodie who loves to cook, but I balance that with an active lifestyle that includes hitting the gym and training Judo. When I need to disconnect, you’ll find me on a camping trip. This mix of passions has even inspired me to start my own fitwear brand, which is my most exciting project right now.</p>
           </div>
         </section>
 
