@@ -337,8 +337,9 @@ const App = () => {
           {/* Headline Section */}
           <div className="mb-6 md:mb-12 px-4 md:px-0">
             <h2 className={`text-xl sm:text-2xl md:text-4xl font-black opacity-75 text-center font-poppins`}>
-              People-First | Engineer | Architect
+              People & Value First | Architect in Progress
             </h2>
+            <p className={`text-center font-poppins`}>Driving engineering and architecture decisions to reduce friction and build reusable frameworks that empower teams.</p>
           </div>
         </section>
 
@@ -351,12 +352,12 @@ const App = () => {
           <h2 className={`text-4xl md:text-6xl font-black mb-10 leading-tight text-center ${darkMode ? 'text-[#ff6b6b]' : ''} font-poppins`}>About Me</h2>
           <h3 className={`text-2xl md:text-3xl font-semibold mb-4 leading-tight max-w-4xl mx-auto text-left ${darkMode ? 'text-white opacity-100' : 'text-black opacity-75'} font-poppins`}>My Professional Craft</h3>
           <div className="text-lg md:text-xl max-w-4xl mx-auto text-left font-poppins">
-            <p className='mb-10'>You’ll often find me at my desk without headphones, because to me, engineering is a team sport. I enjoy collaborating with stakeholders and diving into the details with my team to build great products. My focus is always on creating solutions that aren’t just functional, but also built to last—durable, reliable, and simple to maintain. In every project, my goal is to <strong>#MakeLifeEasier</strong> for everyone.</p>
+            <p className='mb-10'>You’ll often find me at my desk <u><i>without</i></u> headphones, to me engineering is a team sport. I genuinely enjoy collaborating with stakeholders and diving into the details with my team to build great products. My focus is on solutions that are functional, durable and easy to maintain—designed to <strong>#MakeLifeEasier</strong> for everyone.</p>
 
           </div>
           <h3 className={`text-2xl md:text-3xl font-semibold mt-8 mb-4 leading-tight max-w-4xl mx-auto text-left ${darkMode ? 'text-white opacity-100' : 'text-black opacity-75'} font-poppins`}>My Personal Passions</h3>
           <div className="text-lg md:text-xl max-w-4xl mx-auto text-left font-poppins">
-            <p>I'm a passionate foodie who loves to cook, but I balance that with an active lifestyle that includes hitting the gym and training Judo. When I need to disconnect, you’ll find me on a camping trip. This mix of passions has even inspired me to start my own fitwear brand, which is my most exciting project right now.</p>
+            <p>I'm a passionate foodie that also loves to cook. I balance that with an active lifestyle that includes hitting the gym and training Judo. When I need to disconnect, you'll find me at a camping ground. These mix of passions has even inspired me to start my own clothing brand, which is my most exciting project right now.</p>
           </div>
         </section>
 
@@ -402,7 +403,7 @@ const App = () => {
               View My CV
             </a>
             <a
-              href="https://persumi.com/u/menglim" 
+              href="https://persumi.com/u/menglim"
               target="_blank"
               rel="noopener noreferrer"
               className={`px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 ${darkMode ? 'bg-zinc-200 text-black hover:bg-zinc-300' : 'bg-zinc-800 text-white hover:bg-zinc-900'}`}
